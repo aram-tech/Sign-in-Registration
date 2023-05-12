@@ -11,7 +11,7 @@ html,body{
   height: 100%;
   width: 100%;
   place-items: center;
-  background: -webkit-linear-gradient(left,  #9abec1,#000000);
+  background: -webkit-linear-gradient(left,  #C4A484,#000000);
 }
 ::selection{
   background: #12e8f0;
@@ -69,7 +69,7 @@ html,body{
   left: 0;
   z-index: 0;
   border-radius: 5px;
-  background: -webkit-linear-gradient(left, #FBEE97, #ADEDD5);
+  background: -webkit-linear-gradient(left, #070707, #C4A484);
   transition: all 0.6s cubic-bezier(0.68,-0.55,0.265,1.55);
 }
 input[type="radio"]{
@@ -122,7 +122,7 @@ input[type="radio"]{
   transition: all 0.3s ease;
 }
 .form-inner form .field input:focus{
-  border-color: #12e8f0;
+  border-color: #dedede;
 }
 .form-inner form .field input::placeholder{
   color: #999;
@@ -159,7 +159,7 @@ form .btn .btn-layer{
   width: 300%;
   position: absolute;
   left: -100%;
-  background: -webkit-linear-gradient(right, #FBEE97, #ADEDD5, #FBEE97, #ADEDD5);
+  background: -webkit-linear-gradient(right, #000000, #C4A484, #020202, #0a0a0a);
   border-radius: 5px;
   transition: all 0.4s ease;;
 }
@@ -173,7 +173,7 @@ form .btn input[type="submit"]{
   position: relative;
   background: none;
   border: none;
-  color: #fff;
+  color: #ffffff;
   padding-left: 0;
   border-radius: 10px;
   font-size: 20px;
